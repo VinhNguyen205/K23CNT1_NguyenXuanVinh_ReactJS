@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function NqtFuncCom(props) {
+export default function NxvFuncCom(props) {
   return (
     <div>
         <h2>Demo: Function Components Props</h2>
