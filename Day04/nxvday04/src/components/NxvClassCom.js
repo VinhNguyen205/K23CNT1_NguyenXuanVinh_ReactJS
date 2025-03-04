@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-export default class NqtClassCom extends Component {
+export default class NxvClassCom extends Component {
     constructor(props){ // Thêm props ở đây
         super(props);
         // khởi tạo state
         this.state = {
-            fullName: 'NqtClassCom',
+            fullName: 'NxvClassCom',
             age: 20,
-            phone: '0961138440'
+            phone: '035733xxxx'
         }
     }
 
