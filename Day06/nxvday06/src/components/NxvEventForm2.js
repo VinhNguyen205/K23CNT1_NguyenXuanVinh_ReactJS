@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export default class NqtEventForm2 extends Component {
+export default class NxvEventForm2 extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -9,12 +9,12 @@ export default class NqtEventForm2 extends Component {
     }
 
     // Hàm xử lý khi giá trị trong select thay đổi
-    nqtHandleChange = (event) => {
+   NxvHandleChange = (event) => {
         this.setState({ course: event.target.value });
     }
 
     // Hàm xử lý khi form được submit
-    nqtHandleSubmit = (event) => {
+    NxvHandleSubmit = (event) => {
         event.preventDefault(); // Ngăn form reload trang
         alert(`Khóa học bạn đã chọn: ${this.state.course}`);
     }
@@ -28,7 +28,7 @@ export default class NqtEventForm2 extends Component {
                         <label>Chọn khóa học: </label>
                         <select 
                             value={this.state.course} 
-                            onChange={this.nqtHandleChange}
+                            onChange={this.NxvHandleChange}
                             className='form-control'
                         >
                             <option value="css">CSS</option>
@@ -39,7 +39,7 @@ export default class NqtEventForm2 extends Component {
                     <button 
                         type='submit' 
                         className='btn btn-primary mt-2'
-                        onClick={this.nqtHandleSubmit}
+                        onClick={this.NxvHandleSubmit}
                     >
                         Click
                     </button>
