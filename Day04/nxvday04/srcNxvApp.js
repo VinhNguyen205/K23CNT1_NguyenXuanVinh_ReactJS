@@ -1,14 +1,14 @@
 import { useRef } from 'react';
 import './App.css';
-import NqtClassCom from './components/NqtClassCom';
-import NqtFuncCom from './components/NqtFuncCom';
-import NqtFuncComObj from './components/NqtFuncComObj';
+import NxvClassCom from './components/NxvClassCom';
+import NxvFuncCom from './components/NxvFuncCom';
+import NxvFuncComObj from './components/NxvFuncComObj';
 
-function NqtApp() {
+function NxvApp() {
   const user = {
-    fullName: "Nguyễn Quang Tâm",
+    fullName: "Nguyễn Xuân Vinh",
     age: 20,
-    note: "abcccc"
+    note: "acc"
   }
 
   const classComRef = useRef(); // Tạo ref để tham chiếu đến NqtClassCom
@@ -18,15 +18,15 @@ function NqtApp() {
       <h1>Demo</h1>
       <hr />
       <div className="alert alert-danger">
-        <NqtFuncCom name="Nguyễn Quang Tâm" age="20" note="bca"></NqtFuncCom>
+        <NxvFuncCom name="Nguyễn Xuân Vinh" age="20" note="acc"></NxvFuncCom>
       </div>
       <hr />
-      <NqtFuncCom name="Nguyễn Ngọc Hiếu"></NqtFuncCom>
+      <NxvFuncCom name="Test Subject"></NxvFuncCom>
       <div className="alert alert-info">
-        <NqtFuncComObj RenderInfo={user}></NqtFuncComObj>
+        <NxvFuncComObj RenderInfo={user}></NxvFuncComObj>
       </div>
       
-      <NqtClassCom ref={classComRef}></NqtClassCom>
+      <NxvClassCom ref={classComRef}></NxvClassCom>
 
       <hr />
       <button className="btn btn-success" onClick={() => classComRef.current.changeInfo({ target: { name: 'fullName' } })}>
@@ -36,4 +36,4 @@ function NqtApp() {
   );
 }
 
-export default NqtApp;
+export default NxvApp;
