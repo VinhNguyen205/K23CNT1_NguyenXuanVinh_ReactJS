@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 export default class NxvClassCom extends Component {
     constructor(props){ // Thêm props ở đây
         super(props);
-        // khởi tạo state
+        // khởi tạo stat
         this.state = {
             fullName: 'NxvClassCom',
             age: 20,
