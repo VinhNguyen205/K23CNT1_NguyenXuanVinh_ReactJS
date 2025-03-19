@@ -1,0 +1,143 @@
+/* App.css */
+
+/* Container for centering and spacing */
+.container {
+  padding: 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/* Centered title */
+.header {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+/* Loading state */
+.loading {
+  text-align: center;
+  color: #555;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* No data message */
+.no-data {
+  text-align: center;
+  color: #888;
+  font-style: italic;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* NqtNavBar styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #007bff;
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
+
+.separator {
+  color: #888;
+  margin: 0 5px;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .header {
+    font-size: 20px;
+  }
+
+  .navbar {
+    padding: 10px;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-link {
+    padding: 6px 12px;
+  }
+
+  .separator {
+    display: none; /* Hide separators on mobile */
+  }
+}
+/* NqtNavBar styles */
+.Nqt-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.Nqt-nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.Nqt-nav-link:hover {
+  color: #007BFF;
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
+
+.Nqt-separator {
+  color: #888;
+  margin: 0 5px;
+}
+.nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  background-color: #f4f4f4;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 8px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.separator {
+  color: #888;
+  margin: 0 5px;
+}
+
+.nav-link:hover {
+  color: #007BFF;
+  background-color: #e9ecef;
+  border-radius: 4px;
+}
